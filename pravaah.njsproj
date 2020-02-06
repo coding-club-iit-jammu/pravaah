@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{f05ec8e9-265b-4bd2-b553-8ef26790aecc}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile>app.js</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">16.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="app.js" />
+    <Content Include="controllers\athletics_scoreController.js" />
+    <Content Include="controllers\create_new_gameController.js" />
+    <Content Include="controllers\list_current_gamesController.js" />
+    <Content Include="controllers\livescoresController.js" />
+    <Content Include="controllers\live_score_selectorController.js" />
+    <Content Include="controllers\loginController.js" />
+    <Content Include="controllers\result_sportxController.js" />
+    <Content Include="controllers\scoreboardController.js" />
+    <Content Include="controllers\sport_indi_pagesController.js" />
+    <Content Include="controllers\teams_xController.js" />
+    <Content Include="views\about.ejs" />
+    <Content Include="views\athletics.ejs" />
+    <Content Include="views\athletics_score.ejs" />
+    <Content Include="views\badminton.ejs" />
+    <Content Include="views\basketball.ejs" />
+    <Content Include="views\chess.ejs" />
+    <Content Include="views\create_new_game.ejs" />
+    <Content Include="views\cricket.ejs" />
+    <Content Include="views\football.ejs" />
+    <Content Include="views\index.ejs" />
+    <Content Include="views\list_current_games.ejs" />
+    <Content Include="views\livescores.ejs" />
+    <Content Include="views\live_score_selector.ejs" />
+    <Content Include="views\login.ejs" />
+    <Content Include="views\pool.ejs" />
+    <Content Include="views\result_sportx.ejs" />
+    <Content Include="views\scoreboard.ejs" />
+    <Content Include="views\table-tennis.ejs" />
+    <Content Include="views\teams_x.ejs" />
+    <Content Include="views\volleyball.ejs" />
+    <Content Include="public\assets\index_style.css" />
+    <Content Include="public\assets\livescore_temp.css" />
+    <Content Include="public\assets\app.js" />
+    <Content Include="public\assets\athletics_score.js" />
+    <Content Include="public\assets\create_new_game.js" />
+    <Content Include="public\assets\index.js" />
+    <Content Include="public\assets\list_current_games.js" />
+    <Content Include="public\assets\livescores.js" />
+    <Content Include="public\assets\live_score_selector.js" />
+    <Content Include="public\assets\login.js" />
+    <Content Include="public\assets\login_check.js" />
+    <Content Include="public\assets\particles.js" />
+    <Content Include="public\assets\result_sportx.js" />
+    <Content Include="public\assets\scoreboard.js" />
+    <Content Include="public\assets\show_results.js" />
+    <Content Include="public\assets\teams_x.js" />
+    <Content Include="public\assets\animatecss\animate.min.css" />
+    <Content Include="public\assets\css\create_new_game.css" />
+    <Content Include="public\assets\css\list_current_games.css" />
+    <Content Include="public\assets\css\live_score_selector.css" />
+    <Content Include="public\assets\css\login.css" />
+    <Content Include="public\assets\css\scoreboard.css" />
+    <Content Include="public\assets\images\convoquerpng-588x588.png" />
+    <Content Include="public\assets\images\home_background.png" />
+    <Content Include="public\assets\images\pravaah_logo.png" />
+    <Content Include="public\assets\images\adarsh-240x240.jpg" />
+    <Content Include="public\assets\images\akash-1-240x180.jpg" />
+    <Content Include="public\assets\images\anup-shukla-240x320.jpg" />
+    <Content Include="public\assets\images\arun-kumar-240x320.jpg" />
+    <Content Include="public\assets\images\ashish-240x320.jpg" />
+    <Content Include="public\assets\images\ashok-bera-240x320.jpg" />
+    <Content Include="public\assets\images\bb2-2000x1333.jpg" />
+    <Content Include="public\assets\images\c-logo-312x312.jpg" />
+    <Content Include="public\assets\images\cricket-2000x1333.jpg" />
+    <Content Include="public\assets\images\devid-1-240x240.jpg" />
+    <Content Include="public\assets\images\football-1-1920x1080.jpg" />
+    <Content Include="public\assets\images\keshav-1-240x160.jpg" />
+    <Content Include="public\assets\images\logo-364x171.jpg" />
+    <Content Include="public\assets\images\logoiit-1-328x154.jpg" />
+    <Content Include="public\assets\images\mamun-240x240.jpg" />
+    <Content Include="public\assets\images\mbr-1-1920x1280.jpg" />
+    <Content Include="public\assets\images\mbr-1-1920x1285.jpg" />
+    <Content Include="public\assets\images\mbr-1-1920x1634.jpg" />
+    <Content Include="public\assets\images\mbr-1-680x371.jpg" />
+    <Content Include="public\assets\images\mbr-1-680x452.jpg" />
+    <Content Include="public\assets\images\mbr-1-680x453.jpg" />
+    <Content Include="public\assets\images\mbr-1-928x614.jpg" />
+    <Content Include="public\assets\images\mbr-1920x1079.jpg" />
+    <Content Include="public\assets\images\mbr-1920x1252.jpg" />
+    <Content Include="public\assets\images\mbr-1920x1275.jpg" />
+    <Content Include="public\assets\images\mbr-1920x1280.jpg" />
+    <Content Include="public\assets\images\mbr-1920x1285.jpg" />
+    <Content Include="public\assets\images\mbr-1920x971.jpg" />
+    <Content Include="public\assets\images\mbr-2-1920x1280.jpg" />
+    <Content Include="public\assets\images\mbr-2-680x452.jpg" />
+    <Content Include="public\assets\images\mbr-2-680x453.jpg" />
+    <Content Include="public\assets\images\mbr-2-928x619.jpg" />
+    <Content Include="public\assets\images\mbr-3-680x453.jpg" />
+    <Content Include="public\assets\images\mbr-680x447.jpg" />
+    <Content Include="public\assets\images\mbr-928x615.jpg" />
+    <Content Include="public\assets\images\nitin-240x320.jpg" />
+    <Content Include="public\assets\images\p-1-240x320.jpg" />
+    <Content Include="public\assets\images\pankaj-chauhan-240x320.jpg" />
+    <Content Include="public\assets\images\parth-1-240x240.jpg" />
+    <Content Include="public\assets\images\shantanu-240x240.jpg" />
+    <Content Include="public\assets\images\shiva-s-240x320.jpg" />
+    <Content Include="public\assets\images\shivang-240x300.jpg" />
+    <Content Include="public\assets\images\sumit-2-240x320.jpg" />
+    <Content Include="public\assets\images\tus.jpg" />
+    <Content Include="public\assets\images\tushar-240x240.jpg" />
+    <Content Include="public\assets\images\venkatesh-240x242.jpg" />
+    <Content Include="public\assets\images\vishwas-240x320.jpg" />
+    <Content Include="public\assets\images\volleyball-2000x1333.jpg" />
+    <Content Include="public\assets\images\hashes.json" />
+    <Content Include="public\assets\parallax\jarallax.min.js" />
+    <Content Include="public\assets\popper\popper.min.js" />
+    <Content Include="public\assets\smoothscroll\smooth-scroll.js" />
+    <Content Include="public\assets\sociallikes\social-likes.js" />
+    <Content Include="public\assets\tether\tether.min.css" />
+    <Content Include="public\assets\tether\tether.min.js" />
+    <Content Include="public\assets\touchswipe\jquery.touch-swipe.min.js" />
+    <Content Include="public\assets\viewportchecker\jquery.viewportchecker.js" />
+    <Content Include="public\assets\vimeoplayer\jquery.mb.vimeo_player.js" />
+    <Content Include="public\assets\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="public\assets\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="public\assets\bootstrap\css\bootstrap.min.css" />
+    <Content Include="public\assets\bootstrap\js\bootstrap.min.js" />
+    <Content Include="public\assets\dropdown\css\style.css" />
+    <Content Include="public\assets\dropdown\js\script.min.js" />
+    <Content Include="public\assets\mobirise\css\mbr-additional.css" />
+    <Content Include="public\assets\socicon\css\styles.css" />
+    <Content Include="public\assets\socicon\fonts\socicon.svg" />
+    <Content Include="public\assets\theme\css\style.css" />
+    <Content Include="public\assets\theme\js\script.js" />
+    <Content Include="public\assets\web\assets\jquery\jquery.min.js" />
+    <Content Include="public\assets\web\assets\mobirise-icons\mobirise-icons.css" />
+    <Content Include="public\assets\web\assets\mobirise-icons\mobirise-icons.svg" />
+    <Content Include="public\assets\web\assets\mobirise-icons-bold\mobirise-icons-bold.css" />
+    <Content Include="public\assets\web\assets\mobirise-icons-bold\mobirise-icons-bold.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="controllers" />
+    <Folder Include="public" />
+    <Folder Include="public\assets" />
+    <Folder Include="public\assets\animatecss" />
+    <Folder Include="public\assets\bootstrap" />
+    <Folder Include="public\assets\bootstrap\css" />
+    <Folder Include="public\assets\bootstrap\js" />
+    <Folder Include="public\assets\css" />
+    <Folder Include="public\assets\dropdown" />
+    <Folder Include="public\assets\dropdown\css" />
+    <Folder Include="public\assets\dropdown\js" />
+    <Folder Include="public\assets\images" />
+    <Folder Include="public\assets\mobirise" />
+    <Folder Include="public\assets\mobirise\css" />
+    <Folder Include="public\assets\parallax" />
+    <Folder Include="public\assets\popper" />
+    <Folder Include="public\assets\smoothscroll" />
+    <Folder Include="public\assets\sociallikes" />
+    <Folder Include="public\assets\socicon" />
+    <Folder Include="public\assets\socicon\css" />
+    <Folder Include="public\assets\socicon\fonts" />
+    <Folder Include="public\assets\tether" />
+    <Folder Include="public\assets\theme" />
+    <Folder Include="public\assets\theme\css" />
+    <Folder Include="public\assets\theme\js" />
+    <Folder Include="public\assets\touchswipe" />
+    <Folder Include="public\assets\viewportchecker" />
+    <Folder Include="public\assets\vimeoplayer" />
+    <Folder Include="public\assets\web" />
+    <Folder Include="public\assets\web\assets" />
+    <Folder Include="public\assets\web\assets\jquery" />
+    <Folder Include="public\assets\web\assets\mobirise-icons" />
+    <Folder Include="public\assets\web\assets\mobirise-icons-bold" />
+    <Folder Include="views" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

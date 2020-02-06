@@ -1,0 +1,2 @@
+C:\Users\mamun\source\repos\pravaah\obj\Debug\pravaah.njsprojAssemblyReference.cache
+C:\Users\mamun\source\repos\pravaah\bin\Microsoft.NodejsTools.WebRole.dll
